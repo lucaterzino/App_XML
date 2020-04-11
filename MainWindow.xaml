@@ -1,0 +1,20 @@
+﻿<Window x:Class="App_XML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:App_XML"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF798997">
+        <Button x:Name="Btn_Aggiorna" Content="Visualizza Dati" HorizontalAlignment="Left" Margin="94,322,0,0" VerticalAlignment="Top" Height="39" Width="130" Background="Red" FontWeight="Bold" Click="Btn_Aggiorna_Click"/>
+        <Button x:Name="Btn_Interrompi" Content="Interrompi Scorrimento" IsEnabled="False" HorizontalAlignment="Left" Margin="360,322,0,0" VerticalAlignment="Top" Height="39" Width="142" Background="Red" FontWeight="Bold" Click="Btn_Interrompi_Click"/>
+        <ListBox x:Name="Lst_Studenti" Margin="28,56,207,122"/>
+        <Label Content="Istituto tecnico tecnologico     Classe: 4AI        Presenze:" HorizontalAlignment="Left" Margin="28,20,0,0" VerticalAlignment="Top" Height="36" Width="564" FontWeight="Bold" FontSize="16" FontFamily="Comic Sans MS" Background="#FFFF0A0A"/>
+        <Label x:Name="Lbl_Presenze" Content="Presenze" HorizontalAlignment="Left" Margin="667,158,0,0" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="Txt_Presenze" HorizontalAlignment="Left" Margin="632,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="133" Height="29"/>
+        <Button x:Name="Btn_SalvaModifiche" Content="Salva Modifiche" HorizontalAlignment="Left" Margin="648,264,0,0" VerticalAlignment="Top" Height="34" Width="104" Background="#FF79E230" Click="Btn_SalvaModifiche_Click"/>
+        <Button x:Name="Btn_VisualizzaPresenze" Content="Visualizza Presenze" HorizontalAlignment="Left" Margin="648,307,0,0" VerticalAlignment="Top" Height="35" Width="104" Click="Btn_VisualizzaPresenze_Click"/>
+
+    </Grid>
+</Window>
