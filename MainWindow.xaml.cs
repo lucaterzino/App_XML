@@ -152,6 +152,7 @@ namespace App_XML
                     Txt_Presenze.Text = Convert.ToString(s.Presenze);
                     break;
                 }
+
                 flag++;
             }
         }
